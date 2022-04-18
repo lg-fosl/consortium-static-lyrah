@@ -1,0 +1,137 @@
+/* is changed onload to hide images load */
+main {
+  opacity: 0;
+}
+
+.about-people-content {
+  width: 90%;
+  max-width: 75rem;
+}
+
+.lead-researcher-section {
+  max-width: 45.75rem;
+}
+
+.researchers-heading {
+  width: 17.8125em;
+  height: 1.375em;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0563em;
+  color: #202020;
+}
+
+/* picture dimensions */
+.image-picture {
+  max-width: 12.5rem;
+  max-height: 13.4375rem;
+}
+
+.card-img-overlay {
+  top: 80%;
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
+.css-bran-full {
+  display: flex;
+}
+
+.css-bran-abbrev {
+  display: none;
+}
+
+/* Sidebar */
+.about-ppl-sm-sidebar {
+  width: 0.9375em;
+  padding-left: 0.625rem;
+}
+
+.email-sub-row {
+  min-width: 100%;
+}
+
+.css-two-list {
+  display: flex;
+}
+
+.css-four-list,
+.css-five-list {
+  display: none;
+}
+
+/* Special Media Size for Abbreviations */
+@media (max-width: 69.6875rem) {
+  .css-bran-abbrev {
+    display: flex;
+  }
+
+  .css-bran-full {
+    display: none;
+  }
+}
+
+@media (max-width: 35.9375rem) {
+  /* Sidebar */
+  .about-ppl-sm-sidebar {
+    display: none;
+  }
+
+  .subscribe-input {
+    display: none;
+  }
+
+  .subscribe-button {
+    height: 3.71rem;
+    width: 22.5rem;
+  }
+}
+
+@media screen and (max-width: 61.9375rem) {
+  .image-picture {
+    width: 8.375rem;
+    height: 8.375rem;
+    /* padding:0 0.3125rem 0.625rem; */
+  }
+}
+
+@media screen and (min-width: 29.625rem) {
+  .css-four-list {
+    display: flex;
+  }
+
+  .css-five-list,
+  .css-two-list {
+    display: none;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 62rem) {
+  .css-heading-overlay-txt {
+    font-size: 0.625rem;
+  }
+
+  .css-five-list {
+    display: flex;
+  }
+
+  .css-four-list,
+  .css-two-list {
+    display: none;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 75rem) {
+  .css-heading-overlay-txt {
+    font-size: 0.75rem;
+  }
+}

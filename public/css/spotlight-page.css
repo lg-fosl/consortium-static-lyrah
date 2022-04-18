@@ -1,0 +1,386 @@
+.max-width-1296 {
+  max-width: 81rem;
+}
+
+/* Spotlight Sidebar Details */
+.css-spot-detail-sidebar {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0.3125rem;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.detail-sidebar .backbtn {
+  font-size: 2.25em;
+  margin-left: 3.125em;
+}
+
+.detail-back {
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0375em;
+  color: #202020;
+}
+
+.css-spot-details-title {
+  max-width: 25rem;
+  font-size: 0.875em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.0437em;
+}
+
+.css-spot-details-content {
+  max-width: 25rem;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.82;
+  letter-spacing: 0.0437em;
+  color: #000000;
+}
+
+.css-spot-details-image {
+  object-fit: cover;
+}
+
+/* Spotlight Story Section */
+.css-spotlight-story-container {
+  min-height: 50rem;
+}
+
+/* #js-spotlight-left-body,
+#js-spotlight-right-body {
+  max-width: 30rem;
+} */
+
+/* Heading Classes */
+.spotlight,
+.css-custom-h3 {
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 50.188em) {
+  .spotlight {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.content-text {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.82;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.content-text span {
+  display: block;
+  width: 87%;
+}
+
+.content-text em {
+  font-size: 0.833rem;
+  color: #616161;
+}
+
+.max-width-848 {
+  max-width: 53rem;
+}
+
+.related-content-header {
+  font-size: 1.167em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.044em;
+  color: #ad0000;
+}
+
+.related-content-link {
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #ad0000;
+}
+
+.carousel-indicators {
+  position: initial;
+}
+
+.css-spotlight-carousel-inner {
+  min-width: 56.25rem;
+  height: 12.5rem;
+}
+
+.css-spotlight-carousel-mob-inner {
+  max-width: 25rem;
+  max-height: 51.9375rem;
+}
+
+.carousel-indicators {
+  margin-left: 2%;
+  margin-right: 0;
+}
+
+.css-ap-carousel-overlay-txt {
+  font-size: 0.625rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.02rem;
+  margin-top: 0.75rem;
+  color: #000000;
+}
+
+.css-carousel-ap-overlay {
+  min-height: 2.5em;
+  position: absolute;
+  top: 8.9375em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 0.0625rem;
+  margin: 0.0625rem 1rem 0;
+  background-color: #fff;
+}
+
+/** Carousel Classes **/
+@media only screen and (min-width: 100em) {
+  .carousel-indicators {
+    top: 15.625rem;
+  }
+}
+
+.spot-carousel-container {
+  max-width: 56.25rem;
+}
+
+.image-block {
+  max-height: 11.625rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.spotlight-img-group {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10em;
+  min-width: 10em;
+}
+@media only screen and (max-width: 50.188em) {
+  .image-block {
+    height: 10rem;
+  }
+}
+
+@media only screen and (min-width: 36em) {
+  .js-Carousel-Items-Holder {
+    min-width: 50em;
+  }
+}
+
+.css-image-button {
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-button-one {
+  background-image: url('../assets/img/spotlight-page/little.jpg');
+}
+
+.image-button-two {
+  background-image: url('../assets/img/spotlight-page/grigsby.jpg');
+}
+
+.image-button-three {
+  background-image: url('../assets/img/spotlight-page/kalebclemons.jpeg');
+}
+
+.image-button-four {
+  background-image: url('../assets/img/spotlight-page/SWright.jpg');
+}
+
+.image-button-five {
+  background-image: url('../assets/img/spotlight-page/DionCopeland.jpg');
+}
+
+.image-button-six {
+  background-image: url('../assets/img/spotlight-page/bauxiali-olmos.jpg');
+}
+
+.image-button-seven {
+  background-image: url('../assets/img/spotlight-page/STAAR-4.jpg');
+}
+
+.image-button-eight {
+  background-image: url('../assets/img/spotlight-page/Harris.jpg');
+}
+
+.overlay-background {
+  font-size: 0.75em;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  margin-bottom: 0;
+  width: calc(100% - 2rem);
+  height: 4rem;
+  padding-top: 0.5rem;
+}
+
+/* This is a bootstrap class but for some reason its properties are loading completely differently in this project, I have spent
+a collective 12 hours searching for a fix for it but there is nothing out there. I even wrote a stack overflow question that got
+like 100 views but not a single comment or answer. So the only way to make it work as intended is to just copy it from the bootstrap source
+and overwrite some other properties its forcing. */
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  margin: 0;
+  background-color: transparent;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
+.image-picture {
+  max-width: 12.5rem;
+  max-height: 12.5rem;
+}
+
+@media all and (min-width: 768px) {
+  .css-spot-detail-sidebar {
+    top: 1.5625rem;
+  }
+}
+
+@media only screen and (max-width: 25.625rem) {
+  .css-spot-details-image {
+    max-width: 20.875rem;
+    object-fit: cover;
+  }
+
+  .css-spot-details-title {
+    margin-left: 1.3rem !important;
+  }
+
+  .css-spot-details-content {
+    margin-left: 1.7188rem !important;
+    margin-right: 1.7188rem !important;
+  }
+
+  .image-picture {
+    max-width: 9.5rem;
+    max-height: 9.5rem;
+  }
+
+  .css-carousel-ap-overlay {
+    top: 6.9375em;
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  .overlay-background {
+    font-size: 3vw !important;
+  }
+}
+
+@media only screen and (min-width: 36em) and (max-width: 50.188em) {
+  .image-block {
+    max-width: 15.938em;
+  }
+  .carousel-flex-container {
+    margin-left: 12.5em;
+  }
+  .overlay-background {
+    font-size: 2vw !important;
+  }
+}
+
+/** End Carousel **/
+
+/* Top Arrow */
+@media (max-width: 50.188em) {
+  /* Resizing Carousel to two columns */
+  .spot-carousel-container {
+    min-height: 36.125em;
+  }
+
+  .card-deck {
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .card-deck .image-block {
+    flex-basis: 50%;
+    margin-bottom: 0.625em;
+    padding-left: 0.313em;
+    padding-right: 0.313em;
+    max-width: 12.5rem;
+  }
+
+  .top-arrow {
+    display: block;
+    margin-top: 1.815rem;
+    height: 1.4375rem;
+  }
+
+  .return-top {
+    min-height: 7.5rem;
+  }
+
+  .return-top span {
+    font-weight: 500;
+    letter-spacing: 0.0375em;
+    margin-top: 0.625rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 36em) {
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .sub-button-div {
+    width: 18rem;
+  }
+}

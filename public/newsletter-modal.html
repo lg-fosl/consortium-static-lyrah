@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- louisville.edu font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cloud.typography.com/6871636/6343412/css/fonts.css"
+    />
+    <!-- amazon server font -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7965598/7593812/css/fonts.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/newsletter-modal.css" />
+
+    <title>Newsletter Modal</title>
+  </head>
+
+  <body>
+    <div class="modal" id="demo">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title w-100 text-center">
+              SUBSCRIBE TO OUR SOCIAL JUSTICE NEWSLETTER
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p class="content">
+              Sign up for our bi-weekly newsletter, featuring news and events
+              from the Consortium, and our campus and community partners.
+            </p>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <div class="container">
+              <div class="row">
+                <div class="mx-auto">
+                  <input
+                    type="text"
+                    class="subscribe-input"
+                    placeholder="firstname.lastname@louisville.edu"
+                    id="email-subscribe-input"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="mx-auto mt-4">
+                  <input
+                    class="btn btn-default subscribe-button mb-1"
+                    type="button"
+                    value="SUBSCRIBE"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript">
+  $(window).on('load', function() {
+    $('#demo').modal('show')
+  })
+</script>

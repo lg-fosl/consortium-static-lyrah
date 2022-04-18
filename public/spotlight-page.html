@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- louisville.edu font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cloud.typography.com/6871636/6343412/css/fonts.css"
+    />
+    <!-- amazon server font -->
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cloud.typography.com/7965598/7593812/css/fonts.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/uofl-navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/uofl-footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/email-sub-input.css" />
+    <link rel="stylesheet" type="text/css" href="./css/spotlight-page.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sm-sidebar.css" />
+
+    <title>Spotlights</title>
+  </head>
+
+  <body>
+    <a href="#main" class="css-skip-to-main">Skip to main content</a>
+
+    <h1 class="d-none">
+      Cooperative Consortium for Transdisciplinary Social Justice Research -
+      Spotlights
+    </h1>
+
+    <div class="container-fluid overflow-y-hidden-onblur">
+      <!-- UofLNavigationBar -->
+      <div id="UofLNavigationBar" class="d-flex flex-column">
+        <!-- standard uofl header -->
+
+        <!-- upper bar -->
+        <div
+          class="row justify-content-end bg-uofl-red upperbar-set-min-height"
+        >
+          <div class="d-none d-md-flex">
+            <div class="d-flex py-0125 mb-0">
+              <!-- home -->
+              <div>
+                <a
+                  class="d-block uofl-upper-nav-font text-white"
+                  href="https://louisville.edu"
+                >
+                  <span class="fa fa-home pr-2"></span>
+                  louisville.edu
+                </a>
+              </div>
+
+              <!-- my accounts -->
+              <div class="dropdown">
+                <button
+                  class="d-flex align-items-center uofl-upper-nav-font border-none transparent text-white outline-focus-uofl-red dropdown-toggle"
+                  type="button"
+                  id="myAccounts"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="fa fa-user pr-2"></span>
+                  my accounts
+                </button>
+
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="myAccounts"
+                  data-la-initdispnone="true"
+                >
+                  <a
+                    class="dropdown-item uofl-upper-nav-dropdown-font"
+                    href="https://hrp.louisville.edu/"
+                    >Peoplesoft HR</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item uofl-upper-nav-dropdown-font"
+                    href="https://csprd.louisville.edu/"
+                    >Peoplesoft Campus Solutions</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item uofl-upper-nav-dropdown-font"
+                    href="https://fip.louisville.edu/"
+                    >Peoplesoft Financials</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item uofl-upper-nav-dropdown-font"
+                    href="https://ulink.louisville.edu/"
+                    >Ulink</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item uofl-upper-nav-dropdown-font"
+                    href="https://blackboard.louisville.edu/"
+                    >Blackboard</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- lower bar -->
+        <div class="row">
+          <div
+            class="navbar navbar-expand-sm mx-0 px-0 w-100 lower-bar-bg justify-content-between py-2"
+          >
+            <!-- uofl logo -->
+            <div id="logo" class="col-6 col-sm-4 px-0">
+              <a class="d-flex pl-4 pl-xl-5" href="https://louisville.edu">
+                <img
+                  alt="University of Louisville logo, link to the University of Louisville homepage"
+                  src="./assets/img/uofl-logo.png"
+                />
+              </a>
+            </div>
+
+            <!-- mobile nav toggle button -->
+            <div
+              id="uoflNavbarButton"
+              class="col-6 d-flex d-sm-none justify-content-center pr-1-75-rem"
+            >
+              <button
+                class="navbar-toggler search-btn-font outline-focus-grey d-flex justify-content-end align-items-center col-9 offset-2 p-0 text-uppercase"
+                type="button"
+                data-toggle="collapse"
+                data-target="#searchCollapse"
+                aria-controls="searchCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                search
+                <span class="fa fa-chevron-down pl-3"></span>
+              </button>
+            </div>
+
+            <!-- search -->
+            <div
+              id="searchCollapse"
+              class="collapse navbar-collapse col-12 col-sm-8 uofl-lower-nav-font justify-content-end pt-3 pt-sm-0 px-0"
+            >
+              <div class="d-flex pl-4 pr-1-75-rem">
+                <div
+                  id="searchWrap"
+                  class="nav-item d-flex col-12 px-0 align-items-center justify-content-center"
+                >
+                  <form
+                    action="https://search.louisville.edu/"
+                    role="search"
+                    enctype="application/x-www-form-urlencoded"
+                    class="d-flex w-100"
+                    id="search-form"
+                  >
+                    <div class="d-flex col-10 px-0">
+                      <div class="btn-group w-100">
+                        <label for="search-box" class="visuallyhidden"
+                          >Search UofL</label
+                        >
+                        <input
+                          type="search"
+                          class="form-control search w-100 mr-3"
+                          placeholder="Search UofL"
+                          name="q"
+                          id="search-box"
+                        />
+                      </div>
+                    </div>
+
+                    <button
+                      class="btn btn-outline-secondary btn-sm col-2"
+                      name="btnHeaderSearch"
+                      type="submit"
+                      value="Go"
+                      data-original-title=""
+                      title=""
+                    >
+                      Go
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- consortium header -->
+
+        <div class="row">
+          <!-- consortium logo -->
+          <div class="px-0 py-2 my-3 mr-auto">
+            <picture class="pl-4 pl-xl-5">
+              <source
+                media="(min-width: 576px)"
+                srcset="assets/img/consortium-logo-group.svg"
+              />
+              <img
+                src="assets/img/mobile-consortium-logo.svg"
+                alt="Navbar Consortium Logo"
+              />
+            </picture>
+          </div>
+
+          <!-- mobile side navigation -->
+          <div id="jsSideNav" class="d-flex flex-column sidenav">
+            <div class="mb-auto fnt-goth-med">
+              <div class="min-height-4rem">
+                <button
+                  class="box-shadow-none closebtn"
+                  aria-controls="jsSideNav"
+                  type="button"
+                  onclick="closeNav()"
+                  onkeypress="closeNav()"
+                >
+                  &times;
+                </button>
+              </div>
+
+              <!-- home -->
+              <div>
+                <a
+                  href="./"
+                  class="d-block btn-link text-uppercase fnt-goth-med pl-5 jsHomeLink jsNavLinks"
+                  >home</a
+                >
+              </div>
+
+              <!-- accordion about us and our research -->
+              <div class="accordion" id="sideNavAccordion">
+                <!-- about us -->
+                <div class="card about-us">
+                  <div
+                    class="card-header border-none transparent pb-0"
+                    id="headingAboutUs"
+                  >
+                    <h2 class="mb-0">
+                      <button
+                        class="btn d-flex align-items-center outline-focus-white box-shadow-none w-100 text-left text-uppercase background-image background-image-plus fnt-goth-med"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseAboutUs"
+                        aria-expanded="true"
+                        aria-controls="collapseAboutUs"
+                      >
+                        about us
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="collapseAboutUs"
+                    class="collapse"
+                    aria-labelledby="headingAboutUs"
+                    data-parent="#sideNavAccordion"
+                  >
+                    <div class="card-body py-0 pl-5">
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsLeadLink jsNavLinks"
+                        href="./about-people#lead-partners"
+                      >
+                        lead partners
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsFacultyLink jsNavLinks"
+                        href="./about-people#faculty-researchers"
+                      >
+                        faculty researchers
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsStudentsLink jsNavLinks"
+                        href="./about-people#student-researchers"
+                      >
+                        student researchers
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsCommunityLink jsNavLinks"
+                        href="./about-people#community-partners"
+                      >
+                        community partners
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsPurposeLink jsNavLinks"
+                        href="./about-purpose"
+                      >
+                        our purpose
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsPeopleLink jsNavLinks"
+                        href="./our-people"
+                      >
+                        people
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsFramingLink  jsNavLinks"
+                        href="./framing-our-work"
+                      >
+                        framing our work
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsWWDLink jsNavLinks"
+                        href="./what-we-do"
+                      >
+                        what we do
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- our research -->
+                <div class="card our-research">
+                  <div
+                    class="card-header border-none transparent pb-0"
+                    id="headingOurResearch"
+                  >
+                    <h2 class="mb-0">
+                      <button
+                        class="btn d-flex align-items-center outline-focus-white box-shadow-none w-100 text-left text-uppercase background-image background-image-plus fnt-goth-med"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOurResearch"
+                        aria-expanded="true"
+                        aria-controls="collapseOurResearch"
+                      >
+                        our research
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="collapseOurResearch"
+                    class="collapse"
+                    aria-labelledby="headingOurResearch"
+                    data-parent="#sideNavAccordion"
+                  >
+                    <div class="card-body py-0 pl-5">
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsOurResearchLink jsNavLinks"
+                        href="./our-research"
+                      >
+                        our research
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsResearchImpactLink jsNavLinks"
+                        href="./research-impact"
+                      >
+                        research impact
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsConnectResearchersLink jsNavLinks"
+                        href="./match-with-team-form"
+                      >
+                        connect with other researchers
+                      </a>
+                      <a
+                        class="d-block btn-link text-uppercase fnt-goth-med pl-3 py-2 jsSpotlightsLink jsNavLinks"
+                        href="./spotlight-page"
+                      >
+                        spotlights
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- research database -->
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  class="d-block btn-link text-uppercase fnt-goth-med pl-5 py-3 disabled"
+                  >research database</a
+                >
+              </div>
+
+              <!-- news & events -->
+              <div class="pb-3">
+                <a
+                  class="d-block btn-link text-uppercase fnt-goth-med pl-5 jsNewsEventsLink jsNavLinks"
+                  href="./news-and-events"
+                >
+                  news
+                </a>
+              </div>
+
+              <!-- contact us -->
+              <div>
+                <a
+                  class="d-block btn-link text-uppercase fnt-goth-med pl-5 jsNavLinks"
+                  href="mailto:transdis@louisville.edu?subject=I%20Would%20Like%20to%20Know%20More"
+                >
+                  contact us
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-around py-4 mb-5">
+              <div class="p-2">
+                <a href="https://www.facebook.com/ULsocialjustice/">
+                  <img
+                    class="mobile-sm-icon"
+                    src="assets/img/sidebar-facebook.svg"
+                    alt="Link to Consortium Facebook Page"
+                  />
+                </a>
+              </div>
+              <div class="p-2">
+                <a href="https://twitter.com/ULsocialjustice">
+                  <img
+                    class="mobile-sm-icon"
+                    src="assets/img/sidebar-twitter.svg"
+                    alt="Link to Consortium Twitter Feed"
+                  />
+                </a>
+              </div>
+              <div class="p-2">
+                <a
+                  href="mailto:transdis@louisville.edu?subject=I%20Would%20Like%20to%20Know%20More"
+                >
+                  <img
+                    class="mobile-sm-icon"
+                    src="assets/img/sidebar-email.svg"
+                    alt="Link to send an email to Consortium service account"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- desktop navigation -->
+          <nav class="navbar navbar-expand-lg justify-content-end">
+            <!-- mobile navigation button -->
+            <button
+              class="navbar-toggler box-shadow-none outline-focus-white"
+              type="button"
+              data-toggle="collapse"
+              data-target="#jsSidenav"
+              onclick="openNav()"
+              onkeypress="openNav()"
+              aria-controls="consortiumNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="consortiumNavDropdown">
+              <div class="navbar-nav w-100 justify-content-end">
+                <!-- home -->
+                <div class="nav-item active">
+                  <a
+                    class="nav-link text-uppercase fnt-goth-med jsHomeLink jsHomeLinkDesktop jsNavLinks"
+                    href="./"
+                  >
+                    Home
+                  </a>
+                </div>
+
+                <!-- about us -->
+                <div class="nav-item dropdown">
+                  <button
+                    class="nav-link text-uppercase uofl-nav-link border-none transparent outline-focus-white fnt-goth-med box-shadow-none jsAboutUsLinkDesktop jsNavLinks dropdown-toggle"
+                    id="aboutUsDropdownMenuLink"
+                    role="button"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    about us
+                  </button>
+                  <div
+                    class="dropdown-menu dropdown-menu-right columns-4"
+                    aria-labelledby="aboutUsDropdownMenuLink"
+                  >
+                    <div class="d-flex">
+                      <!-- column 1 -->
+                      <div class="d-flex flex-column text-left w-50 pl-5">
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsLeadLink jsNavLinks"
+                          href="./about-people#lead-partners"
+                        >
+                          lead partners
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsFacultyLink jsNavLinks"
+                          href="./about-people#faculty-researchers"
+                        >
+                          faculty researchers
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsStudentsLink jsNavLinks"
+                          href="./about-people#student-researchers"
+                        >
+                          student researchers
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsCommunityLink jsNavLinks"
+                          href="./about-people#community-partners"
+                        >
+                          community partners
+                        </a>
+                      </div>
+
+                      <!-- column 2 -->
+                      <div class="d-flex flex-column text-left pl-5 w-50">
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-50 jsPurposeLink jsNavLinks"
+                          href="./about-purpose"
+                        >
+                          our purpose
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-50 jsPeopleLink jsNavLinks"
+                          href="./our-people"
+                        >
+                          people
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-50 jsFramingLink  jsNavLinks"
+                          href="./framing-our-work"
+                        >
+                          framing our work
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-50 jsWWDLink jsNavLinks"
+                          href="./what-we-do"
+                        >
+                          what we do
+                        </a>
+                      </div>
+
+                      <div class="css-nav-photo-row">
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="wrap">
+                            <img
+                              class="dropdown-nav-image"
+                              src="assets/img/navbar-sample-one.png"
+                              alt="Category of Projects 1"
+                            />
+                          </div>
+                          <div class="wrap">
+                            <img
+                              class="dropdown-nav-image"
+                              src="assets/img/navbar-sample-two.png"
+                              alt="Category of Projects 2"
+                            />
+                          </div>
+                          <div class="wrap">
+                            <img
+                              class="dropdown-nav-image"
+                              src="assets/img/navbar-sample-three.svg"
+                              alt="Category of Projects 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- our research -->
+                <div class="nav-item dropdown">
+                  <button
+                    class="nav-link text-uppercase uofl-nav-link border-none transparent outline-focus-white fnt-goth-med jsOurResearchLinkDesktop jsNavLinks dropdown-toggle"
+                    id="ourResearchDropdownMenuLink"
+                    role="button"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    our research
+                  </button>
+
+                  <div
+                    class="dropdown-menu dropdown-menu-right columns-4"
+                    aria-labelledby="ourResearchDropdownMenuLink"
+                  >
+                    <div class="d-flex pt-4">
+                      <!-- column 1 -->
+                      <div class="d-flex flex-column text-left w-50 pl-5">
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsOurResearchLink jsNavLinks"
+                          href="./our-research"
+                        >
+                          our research
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 ml-auto pl-5 jsResearchImpactLink jsNavLinks"
+                          href="./research-impact"
+                        >
+                          research impact
+                        </a>
+                      </div>
+
+                      <!-- column 2 -->
+                      <div class="d-flex flex-column text-left pl-5 w-50">
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 px-1 jsConnectResearchersLink jsNavLinks"
+                          href="./match-with-team-form"
+                        >
+                          connect with other researchers
+                        </a>
+                        <a
+                          class="dropdown-item text-uppercase fnt-goth-med w-75 px-1 jsSpotlightsLink jsNavLinks"
+                          href="./spotlight-page"
+                        >
+                          spotlights
+                        </a>
+                      </div>
+
+                      <div class="css-nav-photo-row">
+                        <div class="wrap">
+                          <img
+                            class="dropdown-nav-image"
+                            src="assets/img/navbar-sample-one.png"
+                            alt="Category of Projects 4"
+                          />
+                        </div>
+                        <div class="wrap">
+                          <img
+                            class="dropdown-nav-image"
+                            src="assets/img/navbar-sample-two.png"
+                            alt="Category of Projects 5"
+                          />
+                        </div>
+                        <div class="wrap">
+                          <img
+                            class="dropdown-nav-image"
+                            src="assets/img/navbar-sample-three.png"
+                            alt="Category of Projects 6"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- research database -->
+                <div class="nav-item dropdown">
+                  <button
+                    class="nav-link text-uppercase uofl-nav-link border-none transparent outline-focus-white fnt-goth-med dropdown-toggle"
+                    id="researchDatabaseDropdownMenuLink"
+                    role="button"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    research database
+                  </button>
+                  <div
+                    class="dropdown-menu dropdown-menu-right columns-4"
+                    aria-labelledby="researchDatabaseDropdownMenuLink"
+                  >
+                    <div class="">
+                      <div class="css-nav-content-col">
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="mx-auto fnt-goth-med">
+                            COMING SOON
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="mx-auto">
+                            <p class="coming-soon-text fnt-goth-med-italic">
+                              The IDD team is working on building the research
+                              database for our site! Stay tuned.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="css-nav-photo-row">
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="wrap">
+                            <img
+                              class="dropdown-nav-image"
+                              src="assets/img/navbar-sample-one.png"
+                              alt="Category of Projects 7"
+                            />
+                          </div>
+                          <div class="d-flex flex-row justify-content-center">
+                            <div class="wrap">
+                              <img
+                                class="dropdown-nav-image"
+                                src="assets/img/navbar-sample-two.png"
+                                alt="Category of Projects 8"
+                              />
+                            </div>
+                            <div class="wrap">
+                              <img
+                                class="dropdown-nav-image"
+                                src="assets/img/navbar-sample-three.png"
+                                alt="Category of Projects 9"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- news & events -->
+                <div class="nav-item">
+                  <a
+                    class="nav-link text-uppercase uofl-nav-link fnt-goth-med jsNewsEventsLink jsNewsEventsLinkDesktop jsNavLinks"
+                    href="./news-and-events"
+                  >
+                    news
+                  </a>
+                </div>
+
+                <!-- contact us -->
+                <div class="nav-item">
+                  <a
+                    class="nav-link text-uppercase uofl-nav-link fnt-goth-med jsNavLinks"
+                    href="mailto:transdis@louisville.edu?subject=I%20Would%20Like%20to%20Know%20More"
+                  >
+                    contact us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- /UofLNavigationBar -->
+
+      <!-- Mobile Spotlight Details Sidebar -->
+      <div
+        id="spotlightDetailSidebar"
+        class="d-flex flex-column css-spot-detail-sidebar"
+      >
+        <!-- Back Button -->
+        <div class="d-flex flex-column js-close-spot-detail">
+          <div class="d-flex flex-row align-items-center">
+            <img
+              src="assets/img/news-and-events-mobile-detail-back.svg"
+              class="mt-4 ml-2"
+              alt="Back Button"
+            />
+            <span
+              class=" detail-back js-close-spot-detail fnt-goth-book mt-4 ml-2"
+            >
+              BACK
+            </span>
+          </div>
+        </div>
+
+        <!-- Spot Item Description -->
+        <div class="d-flex flex-column">
+          <div class="mt-5">
+            <!-- Spot Details Generated from json file -->
+            <!-- Spot Item Template -->
+            <div class="json-spot-item-fr">
+              <script type="text/template" id="sMobileTemplate">
+                <div class="json-spot-item">
+                  <h6 class="json-spot-title css-spot-details-title fnt-goth-med mx-auto"></h6>
+                  <img class="json-spot-image css-spot-details-image"/>
+                  <p class="json-spot-desc css-spot-details-content fnt-goth-book"></p>
+                </div>
+              </script>
+              <div class="json-spot-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main id="main">
+        <div class="d-flex flex-row">
+          <!-- Main Content Section -->
+          <div
+            class="d-flex align-items-center flex-wrap max-width-1296 w-100 js-blur side-blur mx-auto"
+          >
+            <!-- CONTENT COLUMN -->
+            <div
+              class="d-flex flex-column align-items-center justify-content-between w-100 js-blur"
+              id="content-blur"
+            >
+              <h2 class="h4 spotlight text-center my-3 my-md-5">
+                SPOTLIGHTS
+              </h2>
+
+              <!-- Desktop Carousel -->
+              <div
+                class="d-none d-lg-flex justify-content-center mr-md-5 mr-lg-0"
+              >
+                <div
+                  id="spotlightCarousel"
+                  class="carousel slide spot-carousel-container"
+                  data-interval="false"
+                  data-ride="carousel"
+                >
+                  <div
+                    class="d-flex carousel-inner css-spotlight-carousel-inner"
+                  >
+                    <div class="carousel-item active">
+                      <div class="d-flex h-100 justify-content-center">
+                        <!-- LESLEY HARRIS -->
+                        <div class="d-flex col-3">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-eight"
+                            type="button"
+                            onclick="getLesleyHarris()"
+                            role="button"
+                            onkeypress="getLesleyHarris()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              LESLEY HARRIS
+                              <br />
+                              Faculty Researcher
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- TAYLOR LITTLE -->
+                        <div class="d-flex col-3">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-one"
+                            type="button"
+                            onclick="getTaylorLittle()"
+                            role="button"
+                            onkeypress="getTaylorLittle()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              TAYLOR LITTLE
+                              <br />
+                              Undergraduate Research Fellow
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- ANN HAGAN-GRIGSBY -->
+                        <div class="d-flex col-3">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-two"
+                            type="button"
+                            onclick="getAnnGrigsby()"
+                            role="button"
+                            onkeypress="getAnnGrigsby()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              ANN HAGAN-GRIGSBY
+                              <br />
+                              Community Partner
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- KALEB CLEMMONS -->
+                        <div class="d-flex col-3">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-three"
+                            type="button"
+                            onclick="getKalebClemons()"
+                            role="button"
+                            onkeypress="getKalebClemons()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              KALEB CLEMMONS
+                              <br />
+                              Undergraduate Student Researcher
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div
+                        class="d-flex w-75 mx-auto h-100 justify-content-center"
+                      >
+                        <!-- SAMANTHA WRIGHT -->
+                        <div class="d-flex col-4">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-four"
+                            type="button"
+                            onclick="getSamanthaWright()"
+                            role="button"
+                            onkeypress="getSamanthaWright()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              SAMANTHA WRIGHT
+                              <br />
+                              Law Fellow
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- DION COPELAND -->
+                        <div class="d-flex col-4">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-five"
+                            type="button"
+                            onclick="getDionCopeland()"
+                            role="button"
+                            onkeypress="getDionCopeland()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              DION COPELAND
+                              <br />
+                              Undergraduate Research Fellow
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- DR. LLUIS BAIXAULI-OLMOS -->
+                        <div class="d-flex col-4">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-six"
+                            type="button"
+                            onclick="getDrOlmos()"
+                            role="button"
+                            onkeypress="getDrOlmos()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              DR. LLUIS BAIXAULI-OLMOS
+                              <br />
+                              Faculty Researcher
+                            </span>
+                          </button>
+                        </div>
+
+                        <!-- PROJECT STAAR -->
+                        <div class="d-flex col-4">
+                          <button
+                            class="d-flex col-12 css-image-button outline-focus-none image-button-seven"
+                            type="button"
+                            onclick="getProjectSTAAR()"
+                            role="button"
+                            onkeypress="getProjectSTAAR()"
+                          >
+                            <span
+                              class="overlay-background text-center fnt-goth-med"
+                            >
+                              PROJECT STAAR
+                              <br />
+                              Faculty Researchers
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row justify-content-center mt-3">
+                    <a
+                      class="carousel-control-prev"
+                      role="button"
+                      href="#spotlightCarousel"
+                      data-slide="prev"
+                    >
+                      <img
+                        src="assets/img/left-face-arrow.svg"
+                        alt="Previous Carousel Slide"
+                      />
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <ol class="carousel-indicators carousel-indicators-numbers">
+                      <li
+                        data-target="#spotlightCarousel"
+                        data-slide-to="0"
+                        class="active"
+                      >
+                        1
+                      </li>
+                      <li data-target="#spotlightCarousel" data-slide-to="1">
+                        2
+                      </li>
+                    </ol>
+                    <a
+                      class="carousel-control-next"
+                      role="button"
+                      href="#spotlightCarousel"
+                      data-slide="next"
+                    >
+                      <img
+                        src="assets/img/right-face-arrow.svg"
+                        alt="Next Carousel Slide"
+                      />
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Carousel -->
+              <div class="d-flex d-lg-none flex-row">
+                <div id="spotlightMobileCarousel" class="carousel slide">
+                  <div class="carousel-inner css-spotlight-carousel-mob-inner">
+                    <div class="carousel-item active">
+                      <div class="d-flex flex-row justify-content-center">
+                        <div class="d-flex flex-column">
+                          <div id="spotEight" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/Harris.jpg"
+                              class="card-img image-picture "
+                              alt="Lesley Harris Mobile"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                LESLEY HARRIS
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotOne" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/little.jpg"
+                              class="card-img image-picture "
+                              alt="Taylor Little"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                TAYLOR LITTLE
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotTwo" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/grigsby.jpg"
+                              class="card-img image-picture "
+                              alt="Ann Hagan-Grigsby"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                ANN HAGAN-GRIGSBY
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotThree" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/STAAR-4.jpg"
+                              class="card-img image-picture "
+                              alt="Project STAAR"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                PROJECT STAAR
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotFour" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/DionCopeland.jpg"
+                              class="card-img image-picture "
+                              alt="Dion Copeland Mobile"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                DION COPELAND
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                          <div id="spotFive" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/bauxiali-olmos.jpg"
+                              class="card-img image-picture "
+                              alt="Dr. Olmos Mobile"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                DR. LLUIS BAIXAULI-OLMOS
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotSix" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/kalebclemons.jpeg"
+                              class="card-img image-picture "
+                              alt="Kaleb Clemmons Mobile"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                KALEB CLEMMONS
+                              </p>
+                            </div>
+                          </div>
+                          <div id="spotSeven" class="card mb-3 ml-1 mr-1">
+                            <img
+                              src="assets/img/spotlight-page/SWright.jpg"
+                              class="card-img image-picture "
+                              alt="Samantha Wright Mobile"
+                            />
+                            <div class="css-carousel-ap-overlay">
+                              <p
+                                class="css-heading-overlay-txt text-center fnt-goth-med pt-2"
+                              >
+                                SAMANTHA WRIGHT
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Carousel Section -->
+            </div>
+
+            <!-- SECTION 2 (Blog)-->
+            <div id="spotlight-content" class="d-none d-lg-block w-100 px-3">
+              <h3 class="css-custom-h3 text-center pt-4 pb-2">
+                CONSORTIUM SPOTLIGHT:
+                <span id="js-spotlight-title">LESLEY HARRIS</span>
+              </h3>
+              <div
+                class="d-flex justify-content-center css-spotlight-story-container"
+              >
+                <div
+                  class="d-flex flex-row justify-content-center w-100 text-center content-text fnt-goth-book p-2 ml-5"
+                >
+                  <div class="d-flex flex-column">
+                    <img
+                      id="js-spotlight-profile-picture"
+                      class="mb-4"
+                      src="assets/img/spotlight-page/Harris.jpg"
+                      alt="Current spotlight profile picture"
+                    />
+                  </div>
+                  <div
+                    class="d-flex flex-column ml-5 content-text max-width-848"
+                  >
+                    <div id="js-spotlight-left-body" class="text-left">
+                      <p>
+                        The importance of social justice in academic research is
+                        nothing foreign to Dr. Lesley Harris of UofL’s Kent
+                        School of Social Work. Dr. Harris attributes her passion
+                        for social justice work to her experience of living in
+                        various communities across America,and learning to
+                        understand the root causes of the social problems that
+                        affect those communities, as well as their solutions.
+                        She notes that, even from the very beginning of her
+                        journey in higher education, the literature she
+                        encountered, as well as her practicum experience,
+                        allowed her to see the intrinsic relationship between
+                        social justice and the field of social work.
+                      </p>
+
+                      <p>
+                        Dr. Harris is the Primary Investigator on the
+                        Consortium-supported “Our World, Our Say” research
+                        project, a community based participatory action research
+                        project which utilizes the Photovoice methodology.
+                        Photovoice is a qualitative method that allows community
+                        participants to utilize photography to document and
+                        reflect their reality. This method is typically used to
+                        shed light on the unique perspective of a given
+                        community and on their perceived needs and strengths,
+                        and findings can often be used to advocate for social
+                        change. Dr. Marion Hambrick (CEHD) and Dr. Kyoungmee
+                        Byun (Fine Arts) work alongside Dr. Harris and their
+                        community partner –HIV and Health Care Support Center
+                        located in Vietnam— to bring this project to fruition.
+                        Together, with the help of youth in Hai Phong, the
+                        project hopes to raise awareness about the issues facing
+                        these young people through photography exhibits and
+                        other forms of advocacy.
+                      </p>
+
+                      <p>
+                        “Our World, Our Say” started this past summer in Hai
+                        Phong, Vietnam, where researchers worked with 25 young
+                        people who are being raised by their grandparents
+                        because their parents passed away due to
+                        HIV/AIDS-related illnesses. Using photography and other
+                        methods, the youth involved in this project identified
+                        HIV and reproductive health, child labor, child sexual
+                        abuse, and substance use as the most important issues to
+                        focus on in their community.
+                      </p>
+
+                      <p>
+                        The trandisciplinarity of the “Our World, Our Say” team
+                        is one of its greatest strengths. When asked about the
+                        benefits of working on a transdisciplinary team, Dr.
+                        Harris expressed gratitude to her co-researchers and the
+                        expertise they each bring:
+                      </p>
+
+                      <p>
+                        “We wanted to be innovative in our methodology, [Dr.
+                        Hambrick] is an expert in social network analysis[...].
+                        Very few Photovoice projects involve researchers who are
+                        artists, but to have an artist[Dr. Byun]has been
+                        invaluable, she’s given insight into how to exhibit the
+                        space to increase the message.”
+                      </p>
+
+                      <p>
+                        To aspiring social justice researchers and activists,
+                        Dr. Harris recommends the workbook Me and White
+                        Supremacy, by Layla Saad–but she notes that it is
+                        specifically aimed at well-meaning white people. The
+                        workbook provides guided self-work and self-reflection
+                        about how individuals may be upholding the systems of
+                        white supremacy. Dr. Harris promises, “This[book]has
+                        completely, and overwhelming changed my life!”
+                      </p>
+                    </div>
+                    <div
+                      id="js-spotlight-right-body"
+                      class="text-left content-text fnt-goth-book"
+                    >
+                      <p>
+                        The “Our World, Our Say” project’s Photovoice pictures
+                        will be available to view at the Hite Gallery on UofL’s
+                        Belknap campus, the Asian Institute Crane House, and at
+                        Northern Arizona University in 2020. Follow the
+                        Consortium on social media to learn dates as they are
+                        announced.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Media Sidebar -->
+          <div id="UofLSMSidebar" class="d-none d-lg-flex">
+            <!-- SOCIAL MEDIA NAV -->
+            <div class="d-flex flex-column align-items-center uofl-sm-sidebar">
+              <a
+                href="https://www.facebook.com/ULsocialjustice/"
+                class=" sm-icon pr-2"
+                ><img
+                  src="assets/img/sidebar-facebook.svg"
+                  alt="Consortium Facebook Page"
+              /></a>
+              <a
+                href="https://twitter.com/ULsocialjustice"
+                class="mt-3 sm-icon pr-2"
+                ><img
+                  src="assets/img/sidebar-twitter.svg"
+                  alt="Consortium Twitter Page"
+              /></a>
+              <a
+                href="mailto:transdisciplinary@louisville.edu?subject=I%20would%20like%20to%20to%20know%20more"
+                class="mt-3 sm-icon pr-2"
+                ><img src="assets/img/sidebar-email.svg" alt="Email Consortium"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Mid/Content Section -->
+        <!-- Email/Subscribe Input  -->
+        <div id="UofLEmailSubInput" class="py-5 js-blur side-blur">
+          <div class="d-flex flex-column px-1 px-sm-0">
+            <!-- Heading -->
+            <div class="d-flex flex-row justify-content-center">
+              <p class="text-center fnt-goth-med">
+                SUBSCRIBE TO OUR SOCIAL JUSTICE NEWSLETTER
+              </p>
+            </div>
+
+            <div class="d-flex flex-column flex-xl-row">
+              <!-- Subscribe Button -->
+              <div class="d-flex flex-row flex-xl-column ml-auto mr-auto">
+                <div class="sub-button-div fnt-goth-book">
+                  <img
+                    id="email-icon"
+                    src="assets/img/email-icon-white.png"
+                    alt="subscribe button email icon"
+                  />
+                  <a
+                    href="https://louisville.us19.list-manage.com/subscribe?u=e936de63a256c11c201e12a99&id=0c24a38321"
+                    class="btn btn-default sub-button fnt-goth-med"
+                  >
+                    SUBSCRIBE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Top Arrow -->
+      <div
+        class="d-flex col-12 justify-content-center justify-content-sm-end my-3 mt-xl-0 ml-xl-2"
+      >
+        <a
+          href="#"
+          id="goTop"
+          class="margin-top-negative-five mr-0 mr-sm-3 mb-3 mb-sm-0"
+        >
+          <div class="d-flex flex-column">
+            <img
+              class="top-arrow"
+              src="assets/img/mobile-top-arrow.svg"
+              alt="Return to Top"
+            />
+            <span class="fnt-goth-med">TOP</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Contact Section -->
+    <footer class="footer-background js-blur side-blur">
+      <div class="d-flex flex-column flex-lg-row flex-wrap pb-2">
+        <div class="d-flex col-12 col-lg-5 flex-wrap py-2 mr-auto">
+          <img
+            class="consortium-footer-logo pl-3"
+            src="assets/img/consortium-footer-logo.svg"
+            alt="Footer Consortium Logo"
+          />
+        </div>
+
+        <div class="d-flex col-12 col-lg-2 flex-wrap py-2">
+          <ul class="footer-text-groups pl-3 pt-lg-3 mb-auto">
+            <li>Consortium OFFICE</li>
+            <li>Ekstrom Library 280</li>
+            <li>University of Louisville</li>
+            <li>Louisville Kentucky 40209</li>
+          </ul>
+        </div>
+
+        <div class="d-flex col-12 col-lg-3 flex-wrap py-2">
+          <ul class="footer-text-groups pl-3 pt-lg-3 mb-auto">
+            <li>OFFICE HOURS</li>
+            <li>Monday - Thursday 10:00am - 4:00 pm</li>
+            <li>Friday closed (available by appointment)</li>
+          </ul>
+        </div>
+
+        <div class="d-flex col-12 col-lg-2 flex-wrap py-2">
+          <ul class="footer-text-groups pl-3 pl-xl-0 pt-lg-3 mb-auto">
+            <li>EMAIL</li>
+            <li>
+              <a
+                href="mailto:transdis@louisville.edu?subject=I%20Would%20Like%20to%20Know%20More"
+              >
+                transdis@louisville.edu
+              </a>
+            </li>
+            <li class="pt-3">PHONE</li>
+            <li><a href="tel:1-502-852-2371">(502) 852-2371</a></li>
+          </ul>
+        </div>
+
+        <!-- Common UofL footer -->
+        <div
+          class="d-flex col-12 flex-lg-row flex-wrap justify-content-center align-items-end pt-3 text-uppercase"
+        >
+          <!-- uofl -->
+          <div
+            class="d-flex col-6 col-xl-3 align-items-center justify-content-start order-2 mt-3 mt-xl-0 order-xl-1 footer-external-labels opacity-075"
+          >
+            <a class="outline-focus-white px-1" href="https://louisville.edu/">
+              &copy;&nbsp;UNIVERSITY OF LOUISVILLE
+            </a>
+          </div>
+
+          <!-- middle section-->
+          <div
+            class="d-flex flex-lg-row flex-wrap col-12 col-xl-8 justify-content-center order-1 order-xl-2"
+          >
+            <!-- contact -->
+            <div
+              class="d-flex col-3 col-lg-2 px-0 align-items-center justify-content-start justify-content-xl-center footer-external-labels opacity-075"
+            >
+              <a
+                class="outline-focus-white px-1"
+                href="https://louisville.edu/about/contact"
+              >
+                CONTACT
+              </a>
+            </div>
+
+            <!-- privacy statement -->
+            <div
+              class="d-flex col-3 col-lg-2 px-0 align-items-center justify-content-center footer-external-labels opacity-075"
+            >
+              <a
+                class="outline-focus-white px-1"
+                href="https://louisville.edu/privacy-statement"
+              >
+                PRIVACY STATEMENT
+              </a>
+            </div>
+
+            <!-- apply dropdown -->
+            <div
+              class="d-flex col-3 col-lg-2 px-0 align-items-center justify-content-center footer-external-labels"
+            >
+              <div class="dropdown">
+                <button
+                  class="border-none transparent text-white outline-focus-white opacity-075 dropdown-toggle"
+                  type="button"
+                  id="applyMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  APPLY
+                </button>
+                <div class="dropdown-menu" aria-labelledby="applyMenuButton">
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/admissions/apply"
+                    >Undergraduate</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/admissions/apply/transfer/"
+                    >Transfer</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://graduate.louisville.edu/"
+                    >Graduate</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/dental/dmd/admission/"
+                    >Dentistry</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/law/admissions"
+                    >Law</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/medicine/admissions"
+                    >Medicine</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://business.louisville.edu/academics-programs/graduate-programs/apply/"
+                    >MBA</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/admissions/apply/international"
+                    >International</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="https://louisville.edu/online/admissions"
+                    >Online Learning</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- jobs -->
+            <div
+              class="d-flex col-3 col-lg-2 px-1 px-lg-0 align-items-center justify-content-end justify-content-lg-center footer-external-labels opacity-075"
+            >
+              <a
+                class="outline-focus-white px-1"
+                href="https://louisville.edu/hr/employment/jobs/"
+              >
+                JOBS
+              </a>
+            </div>
+
+            <!-- donate -->
+            <div
+              class="d-flex col-6 col-lg-2 px-0 align-items-center justify-content-center justify-content-lg-center mt-3 mt-lg-0 footer-external-labels opacity-075"
+            >
+              <a
+                class="outline-focus-white px-1"
+                href="https://louisville.edu/giving"
+              >
+                DONATE
+              </a>
+            </div>
+
+            <!-- emergency -->
+            <div
+              class="d-flex col-6 col-lg-2 px-0 justify-content-center justify-content-lg-end align-items-center mt-3 mt-lg-0 footer-external-labels opacity-075"
+            >
+              <a
+                class="outline-focus-white px-1"
+                href="https://louisville.edu/emergency"
+              >
+                EMERGENCY
+              </a>
+            </div>
+          </div>
+
+          <!-- login dropdown -->
+          <div
+            class="d-flex col-6 col-xl-1 order-3 align-items-center justify-content-end mt-3 px-lg-3 footer-external-labels"
+          >
+            <div class="dropdown">
+              <button
+                class="border-none transparent text-white outline-focus-white px-1 opacity-075"
+                type="button"
+                id="loginMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                LOGIN
+              </button>
+
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="loginMenuButton"
+              >
+                <a class="dropdown-item" href="https://hrp.louisville.edu/"
+                  >PeopleSoft HR</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://csprd.louisville.edu/"
+                  >PeopleSoft Campus Solutions</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://fip.louisville.edu/"
+                  >PeopleSoft Financials</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item"
+                  href="https://blackboard.louisville.edu/"
+                  >Blackboard</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Bottom/Footer Section -->
+
+    <script src="email-sub-input.js"></script>
+    <script src="./uofl-navbar.js"></script>
+    <script src="spotlight-page.js"></script>
+    <script>
+      async function append_news_json(fileData, desired, windowSize) {
+        // If on mobile device
+        if (windowSize < 992) {
+          var navEl = document.getElementById('spotlightDetailSidebar')
+
+          navEl.style.position = 'fixed'
+          navEl.style.width = '100%'
+
+          // body remove scroll in the background
+          let screenHeight = $(window).outerHeight()
+          window.scrollTo(0, 0)
+          $('body')
+            .addClass('device-height')
+            .css('max-height', screenHeight)
+
+          var s = $('#sMobileTemplate')[0].innerHTML.trim()
+
+          var holder = document.createElement('div')
+          holder.innerHTML = s
+          var template = holder.childNodes
+
+          //Find corresponding object to what was clicked
+          var foundObj = spotData.find(x => x.id === desired)
+
+          //Clone Template
+          var tempClone = $(template).clone()
+
+          //Populate it
+          $(tempClone)
+            .find('.json-spot-title')
+            .html(foundObj.title)
+          var img = $(tempClone).find('.json-spot-image')
+          $(img).attr('src', foundObj.image)
+          $(img).attr('alt', foundObj.alt)
+
+          //Add proper description
+          //Taylor Little
+          if (desired === '1') {
+            var taylor_content = await getTaylorLittleContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(taylor_content)
+          } else if (desired === '2') {
+            var ann_content = await getAnnGrigsbyContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(ann_content)
+          } else if (desired === '3') {
+            var STAAR_content = await getProjectStaarContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(STAAR_content)
+          } else if (desired === '4') {
+            var dion_content = await getDionCopelandContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(dion_content)
+          } else if (desired === '5') {
+            var olmos_content = await getDrOlmosContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(olmos_content)
+          } else if (desired === '6') {
+            var clemons_content = await getKalebClemonsContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(clemons_content)
+          } else if (desired === '7') {
+            var samantha_content = await getSamanthaWrightContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(samantha_content)
+          } else if (desired === '8') {
+            var lesley_content = await getLesleyHarrisContent()
+            $(tempClone)
+              .find('.json-spot-desc')
+              .html(lesley_content)
+          }
+
+          $(tempClone).find('.json-spot-title')
+
+          $(tempClone)
+            .find('.json-spot-desc')
+            .addClass('text-center mx-auto')
+
+          $(tempClone)
+            .find('.json-spot-image')
+            .addClass('d-block mx-auto py-3')
+
+          var elBlur = document.getElementsByClassName('detail-grey')
+
+          for (var x = 0; x < elBlur.length; x++) {
+            elBlur[x].classList.add('grey-100')
+          }
+
+          //Append new content
+          $('.json-spot-item-fr')
+            .find('.json-spot-item')
+            .replaceWith(tempClone)
+        }
+
+        $('.js-close-spot-detail').on('click', function closeNewsDetail() {
+          document.getElementById('spotlightDetailSidebar').style.width = '0'
+
+          // unset scroll removal
+          window.scrollTo(0, 0)
+          $('body')
+            .removeClass('device-height')
+            .css('max-height', '100%')
+
+          var elBlur = document.getElementsByClassName('detail-grey')
+          for (var x = 0; x < elBlur.length; x++) {
+            elBlur[x].classList.remove('grey-100')
+          }
+        })
+      }
+
+      $('document').ready(function() {
+        var windowWidth = $(window)[0].innerWidth
+
+        $(window).on('resize', function() {
+          //Need this to determine if on mobile or not
+          windowWidth = $(window)[0].innerWidth
+        })
+
+        //Prepare News List
+        var spotOne = document.getElementById('spotOne')
+        var spotTwo = document.getElementById('spotTwo')
+        var spotThree = document.getElementById('spotThree')
+        var spotFour = document.getElementById('spotFour')
+        var spotFive = document.getElementById('spotFive')
+        var spotSix = document.getElementById('spotSix')
+        var spotSeven = document.getElementById('spotSeven')
+        var spotEight = document.getElementById('spotEight')
+
+        spotOne.addEventListener('click', function() {
+          append_news_json(spotData, '1', windowWidth)
+        })
+        spotTwo.addEventListener('click', function() {
+          append_news_json(spotData, '2', windowWidth)
+        })
+        spotThree.addEventListener('click', function() {
+          append_news_json(spotData, '3', windowWidth)
+        })
+        spotFour.addEventListener('click', function() {
+          append_news_json(spotData, '4', windowWidth)
+        })
+        spotFive.addEventListener('click', function() {
+          append_news_json(spotData, '5', windowWidth)
+        })
+        spotSix.addEventListener('click', function() {
+          append_news_json(spotData, '6', windowWidth)
+        })
+        spotSeven.addEventListener('click', function() {
+          append_news_json(spotData, '7', windowWidth)
+        })
+        spotEight.addEventListener('click', function() {
+          append_news_json(spotData, '8', windowWidth)
+        })
+
+        append_news_json(spotData, '8', windowWidth)
+      })
+    </script>
+  </body>
+</html>

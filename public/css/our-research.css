@@ -1,0 +1,83 @@
+.max-width-1120 {
+  max-width: 70rem;
+}
+
+.css-custom-h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8375;
+  letter-spacing: 0.0563em;
+  color: #202020;
+}
+
+.custom-text-style {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05rem;
+}
+
+.card-img-overlay {
+  top: 70%;
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
+.css-heading-overlay-txt {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0375rem;
+}
+
+.css-overlay-subtext {
+  font-size: 0.75rem;
+  text-align: left;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.max-width-600 {
+  max-width: 37.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .css-heading-overlay-txt {
+    font-size: 0.875rem;
+  }
+}
+
+/* Arrow to Top */
+
+.margin-top-negative-five {
+  margin-top: -5rem;
+}
+
+@media all and (max-width: 575px) {
+  .middle-row-blur {
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+    width: calc(100% - 1.5rem);
+  }
+}
+
+/* footer fix on tall screens */
+@media all and (min-height: 1270px) and (min-width: 1200px) {
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}

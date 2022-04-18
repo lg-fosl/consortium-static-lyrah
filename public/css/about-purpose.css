@@ -1,0 +1,87 @@
+.css-about-purpose-content {
+  width: 90%;
+  max-width: 75rem;
+}
+
+.css-img-purpose {
+  max-width: 15.1875rem;
+  max-height: 19.1875rem;
+}
+
+.css-research-priority-item {
+  max-width: 17.6875rem;
+  max-height: 19.1875rem;
+  margin-bottom: 4.375rem;
+}
+
+/* Our Purpose Paragraph Content*/
+.css-paragraph-style {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05rem;
+  color: #000000;
+}
+
+.custom-text-style {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05rem;
+}
+
+.max-width-624 {
+  max-width: 39rem;
+}
+
+/* Headings */
+.css-custom-h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8375;
+  letter-spacing: 0.05625rem;
+  color: #202020;
+}
+
+/* Research Priorities Images */
+.css-priority-img-row {
+  margin-bottom: 1.5rem;
+}
+
+.css-img-background {
+  max-width: 15rem;
+}
+
+@media all and (min-width: 575px) and (max-width: 991px) {
+  .css-img-purpose,
+  .css-img-background {
+    max-width: 30rem;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .css-img-purpose,
+  .css-img-background {
+    max-width: 24rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .css-img-purpose,
+  .css-img-background {
+    max-width: 30rem;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 574px) {
+  .css-img-purpose {
+    max-height: 11.19rem;
+  }
+}

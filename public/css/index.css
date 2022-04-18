@@ -1,0 +1,308 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+}
+
+/* Links for testing, comment out before commit */
+/* @font-face {
+  font-family: Gotham-Book;
+  src: url('../assets/fonts/Gotham-Book.otf');
+}
+
+body {
+  font-family: Gotham-Book;
+} */
+/* ------------- */
+
+.css-skip-to-main,
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 0.0625rem;
+  margin: -0.0625rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 0.0625rem;
+}
+
+.border-none {
+  border: none;
+}
+
+.pr-1-75-rem {
+  padding-right: 1.75rem;
+}
+
+.margin-top-negative-five {
+  margin-top: -5rem;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.outline-focus-white:focus {
+  outline: 0.3125rem auto #ffffff;
+}
+
+.outline-focus-uofl-red:focus {
+  outline: 0.3125rem auto #ad0000;
+}
+
+.outline-focus-grey:focus {
+  outline: 0.3125rem auto #f3f3f3;
+}
+
+.box-shadow-none:focus {
+  box-shadow: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.fnt-goth-bold {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-style: normal;
+  font-weight: 700;
+  color: #202020;
+}
+
+.fnt-goth-book {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-style: normal;
+  font-weight: 400;
+  color: #202020;
+}
+
+/* Links for testing, comment out before commit */
+/* @font-face {
+  font-family: Gotham-Book;
+  src: url('../assets/fonts/Gotham-Book.otf');
+}
+
+.fnt-goth-book {
+  font-family: Gotham-Book;
+} */
+/* ------------- */
+
+.fnt-goth-med {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-style: normal;
+  font-weight: 500;
+  color: #202020;
+}
+
+/* Links for testing, comment out before commit */
+/* @font-face {
+  font-family: Gotham-Medium;
+  src: url('../assets/fonts/Gotham-Medium.otf');
+}
+
+.fnt-goth-med {
+  font-family: Gotham-Medium;
+} */
+/* ------------- */
+
+.fnt-goth-med-italic {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-style: italic;
+  font-weight: 500;
+  color: #202020;
+}
+
+/* Links for testing, comment out before commit */
+/* @font-face {
+  font-family: Gotham-MediumItalic;
+  src: url('../assets/fonts/Gotham-MediumItalic.otf');
+}
+
+.fnt-goth-med-italic {
+  font-family: Gotham-MediumItalic;
+} */
+/* ------------- */
+
+.bg-uofl-red,
+nav .dropdown-item.active,
+nav .dropdown-item:active,
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: #ad0000;
+  color: #ffffff;
+}
+
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item.active,
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item:active,
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item.focus,
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item:focus,
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item.hover,
+nav
+  #consortiumNavDropdown
+  .columns-4
+  > div
+  > div:nth-of-type(2)
+  .dropdown-item:hover {
+  width: 85% !important;
+}
+
+.uofl-red {
+  color: #ad0000;
+}
+
+.uofl-red:hover {
+  color: #ad0000;
+}
+
+.disable {
+  color: #999 !important;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+/* Carousel CSS */
+.carousel-indicators li {
+  width: 3.125rem;
+  height: 1.25rem;
+  opacity: 1;
+  text-indent: 0;
+}
+
+.carousel-indicators-numbers li {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  text-indent: 0;
+  margin: 0 0.125rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border: none;
+  border-radius: 0%;
+  line-height: 1.875rem;
+  opacity: 1;
+  background-color: transparent;
+  transition: all 0.25s ease;
+  list-style: none;
+}
+
+.carousel-indicators-numbers .active {
+  color: #ad0000;
+}
+
+.carousel-control-next {
+  position: static;
+  z-index: 5;
+  display: inline;
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  position: static;
+  z-index: 5;
+  display: inline;
+  opacity: 1;
+}
+
+/* Card Image/Text Overlay CSS */
+.card {
+  border: none;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.card-img-overlay {
+  min-height: 2.5em;
+  position: absolute;
+  top: 10.9375em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 0.0625rem;
+  margin: 0.0625rem 1.5625rem 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.card-img-overlay > p {
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+.css-heading-overlay-txt {
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: 0.0375rem;
+  color: #202020;
+}
+
+.css-overlay-subtext {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: 0.0375rem;
+  color: #202020;
+}
+
+@media screen and (max-width: 575px) {
+  #UofLSMSidebar {
+    display: none;
+  }
+  #goTop.margin-top-negative-five {
+    margin-top: 0;
+  }
+}
+
+#search-form .btn.btn-outline-secondary {
+  color: #202020;
+}
+
+#search-form .btn.btn-outline-secondary.active,
+#search-form .btn.btn-outline-secondary:active,
+#search-form .btn.btn-outline-secondary.focus,
+#search-form .btn.btn-outline-secondary:focus,
+#search-form .btn.btn-outline-secondary.hover,
+#search-form .btn.btn-outline-secondary:hover {
+  color: #ffffff;
+}

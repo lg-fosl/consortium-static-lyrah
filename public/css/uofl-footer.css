@@ -1,0 +1,67 @@
+.footer-background {
+  background-color: #202020;
+}
+
+.consortium-footer-group {
+  width: 16.75em;
+  height: 2.5em;
+  object-fit: contain;
+}
+
+.footer-text-groups {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 0.625rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  list-style-type: none;
+  opacity: 0.75;
+}
+
+.footer-external-labels {
+  position: relative;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 0.625rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+footer .dropdown-menu {
+  font-size: 0.625rem;
+}
+
+/* footer .dropdown-item.active,
+footer .dropdown-item:active {
+  background-color: #ffffff;
+  color: initial;
+} */
+
+.consortium-footer-logo {
+  width: 15.4375em;
+  height: 5.5em;
+  padding-top: 0.5em;
+  object-fit: contain;
+}
+
+.opacity-075 {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 23.4375em) {
+  .donate-label {
+    min-width: 54%;
+  }
+}
+
+@media screen and (max-width: 35.9375em) {
+  .donate-label {
+    min-width: 34%;
+  }
+}

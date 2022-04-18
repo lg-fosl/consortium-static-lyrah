@@ -1,0 +1,38 @@
+{
+  "name": "consortium-frontend",
+  "version": "0.1.0",
+  "description": "Static Consortium Web Front",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon -L --exec babel-node src/index.js",
+    "build": "babel src -d dist",
+    "start": "yarn build && node dist/index.js",
+    "dockerStart": "docker-compose up",
+    "dockerEnd": "docker-compose down",
+    "format": "prettier --single-quote --write './{src}/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hub.louisville.edu/PIBA/consortium-frontend.git"
+  },
+  "author": "IDD Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.18.2",
+    "yarn": ">=1.16.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

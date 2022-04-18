@@ -1,0 +1,91 @@
+#UofLEmailSubInput {
+  width: 100%;
+}
+.css-subscribe-newsletter-heading {
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+
+.email-sub-row {
+  min-width: 100%;
+  transform: translate(2.5%, 0%);
+}
+
+#email-icon {
+  padding-left: 0px;
+}
+
+/* this class is used in the navbar hover as well */
+.sub-button-div {
+  min-width: 11.125em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  background-color: #202020;
+  width: 20em;
+  padding-left: 1.875rem;
+  padding-top: 9px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* this class is used in the navbar hover as well */
+.sub-button {
+  color: #ffffff;
+  font-size: 0.875em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: 0.0437em;
+}
+
+/* this class is used in the navbar hover as well */
+.sub-button-div:hover .sub-button:hover {
+  color: #ffffff;
+}
+
+.css-top-arrow-group {
+  color: #000000;
+}
+
+a#goTop {
+  text-decoration: none;
+  color: #000000;
+}
+
+.return-top {
+  padding-left: 10px;
+}
+
+@media all and (max-width: 992px) {
+  .css-subscribe-newsletter-heading {
+    padding-top: 0px;
+  }
+}
+
+.css-top-arrow-group {
+  padding-top: 2.1875em;
+}
+
+.sub-button-div {
+  min-width: 11.125em;
+  padding-left: 0px;
+  border-bottom: none;
+  padding-top: 0px;
+}
+
+.email-sub-row {
+  transform: translate(0%, 0%);
+}
+
+@media all and (max-width: 375px) {
+  .sub-button-div {
+    width: 18rem;
+  }
+}

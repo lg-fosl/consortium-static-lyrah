@@ -1,0 +1,56 @@
+.flex-wrapper {
+  height: calc(100% - 3.5625rem);
+}
+
+.max-width-1296 {
+  max-width: 81rem;
+}
+
+.css-custom-h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0563em;
+  color: #202020;
+}
+
+.custom-text-style {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0437rem;
+}
+
+/* Arrow to Top */
+
+.margin-top-negative-five {
+  margin-top: -5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .css-impact-img {
+    max-width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .middle-row-blur {
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+    width: calc(100% - 1.5rem);
+  }
+}
+
+/* footer fix on tall screens */
+@media all and (min-height: 1270px) and (min-width: 1200px) {
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="20" fill="none" viewBox="0 0 27 20">
+    <mask id="a" fill="#fff">
+        <rect width="27" height="19.8" rx="1"/>
+    </mask>
+    <rect width="27" height="19.8" stroke="#fff" stroke-width="6" mask="url(#a)" rx="1"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1.8 1.8l11.7 10.8L25.2 1.8"/>
+</svg>

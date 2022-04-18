@@ -1,0 +1,31 @@
+.container-fluid.overflow-y-hidden-onblur {
+  height: 75%;
+}
+
+@media (min-width: 62rem) {
+  .css-404-content {
+    padding-left: 5.4375rem;
+  }
+}
+
+.css-404-img {
+  max-width: 30rem;
+}
+
+@media (max-width: 35.875rem) {
+  .css-404-img {
+    max-width: 18rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .container-fluid.overflow-y-hidden-onblur {
+    height: 100%;
+  }
+}
+
+.css-404-subtext {
+  opacity: 0.5;
+  font-style: italic;
+  font-size: 1.5625rem;
+}

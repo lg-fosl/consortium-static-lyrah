@@ -1,0 +1,48 @@
+.custom-h2 {
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05em;
+  color: #202020;
+  text-transform: uppercase;
+}
+
+.custom-text-style {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05rem;
+}
+
+.max-width-900 {
+  max-width: 56.25rem;
+}
+
+.max-width-700 {
+  max-width: 43.75rem;
+}
+
+.card-img-overlay {
+  top: 70%;
+  text-align: center;
+}
+.card-img {
+  border-radius: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .css-heading-overlay-txt {
+    font-size: 0.625rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .css-heading-overlay-txt {
+    font-size: 0.75rem;
+  }
+}

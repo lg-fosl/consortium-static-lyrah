@@ -1,0 +1,493 @@
+.uofl-nav-component {
+  max-width: 81.25rem;
+}
+
+.wrap {
+  position: relative;
+}
+
+.wrap p {
+  background: white;
+}
+
+.home-overlay {
+  left: 15%;
+  z-index: 1;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.email-title {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.pr-15px,
+.px-15px {
+  padding-right: 15px;
+}
+
+.pl-15px,
+.px-15px {
+  padding-left: 15px;
+}
+
+.max-width-25rem {
+  max-width: 25rem;
+}
+
+.flex-basis-auto {
+  flex-basis: auto;
+}
+
+.margin-top-negative-five {
+  margin-top: -5rem;
+}
+
+/************* Vertical Text Carousel *************/
+
+.css-carousel-indicator-up {
+  position: relative;
+  top: 6.875rem;
+}
+
+.carousel-arrow-up {
+  transform: rotate(90deg);
+}
+
+.css-carousel-indicator-down {
+  position: relative;
+  top: 13.75em;
+}
+
+.carousel-arrow-down {
+  transform: rotate(90deg);
+}
+
+.carousel-indicators li {
+  opacity: 1;
+  text-indent: 0;
+  background-color: transparent;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators {
+  position: relative;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators li {
+  min-height: 5rem;
+  opacity: 0.5;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators li p {
+  margin-bottom: 0;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators li.active {
+  opacity: 1;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators li.active p {
+  padding-left: 0;
+  background-color: #ffffff;
+}
+
+/* Carousel Text Movement */
+
+#jsHomeTextCarousel {
+  z-index: 10;
+  max-width: 20.8125rem;
+  left: 30%;
+  top: 25%;
+}
+
+#jsHomeTextCarousel .carousel-inner .carousel-item.active {
+  background-color: #ffffff;
+}
+
+.carousel-item.active .carousel-indicator-text,
+.item-prev.carousel-item-prev,
+.item-next.carousel-item-next {
+  opacity: 1;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: calc(1rem - 0.2vw);
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 0.0625rem;
+  color: #202020;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.carousel-item .carousel-indicator-text {
+  opacity: 1;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: calc(1rem - 0.2vw);
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 0.0625rem;
+  color: #202020;
+}
+
+.css-carousel-indicators-wrap .carousel-indicators li {
+  min-width: 150%;
+}
+
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.prev {
+  transform: translateX(-33%);
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+
+.carousel-control-prev.position-relative,
+.carousel-control-next.position-relative {
+  position: relative;
+}
+
+/************* Under-Carousel Content *************/
+
+.css-under-carousel-heading {
+  line-height: 2.73;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+}
+
+.margin-left-negative-five {
+  margin-left: -5rem;
+}
+
+.css-under-carousel-content {
+  line-height: 1.63;
+  letter-spacing: 0.0375rem;
+  font-weight: 500;
+}
+
+.css-under-carousel-content a {
+  cursor: pointer;
+}
+
+.margin-top-3rem {
+  margin-top: 3rem;
+}
+
+.bg-uofl-black {
+  background-color: #202020;
+}
+
+.css-under-carousel-link {
+  color: #202020;
+}
+
+.css-under-carousel-link:hover {
+  color: #202020;
+}
+
+.css-under-carousel-top-heading {
+  background-color: #71b7d9;
+}
+
+.css-under-carousel-middle-heading {
+  background-color: #80ac02;
+}
+
+.css-under-carousel-bottom-heading {
+  background-color: #ad0000;
+}
+
+.css-under-carousel-dl-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.css-under-carousel-dl-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.under-carousel-img-wrap {
+  min-height: 16rem;
+}
+
+.under-carousel-img-wrap {
+  margin-bottom: 3rem;
+}
+
+.under-carousel-img-wrap:nth-of-type(1) {
+  margin-bottom: 7rem;
+}
+
+.under-carousel-background-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.spotlight-background-img {
+  background-image: url('../assets/img/home/Harris.jpg');
+}
+
+.news-events-background-img {
+  background-image: url('../assets/img/home/life-matters-Consort-reduced.jpg');
+}
+
+/************* Project Search Input *************/
+
+#project-search-input .search-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 0.1875rem solid black;
+  max-width: 20em;
+  background: url('../assets/img/mobile-sidebar-search.svg');
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-left: 1.875em;
+}
+
+#project-search-input ::-webkit-input-placeholder {
+  padding-left: 50%;
+}
+
+#project-search-input :-ms-input-placeholder {
+  padding-left: 50%;
+}
+
+#project-search-input ::placeholder {
+  padding-left: 50%;
+}
+
+#project-search-input .search-button {
+  background-color: #202020;
+  border-radius: 0;
+  min-width: 11.125em;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 0.875em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+} */
+
+#project-search-input .search-button:hover {
+  color: #ffffff;
+}
+
+/************* Featured Projects *************/
+
+.css-heading-overlay-txt {
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: 0.0375em;
+  color: #202020;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.css-description-overlay-txt {
+  opacity: 0;
+}
+
+/* Project Overlays */
+
+.card-background {
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: cover;
+  min-height: 15rem;
+}
+
+.card-background:hover div,
+.card-background:active div,
+.card-background:focus div {
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.card-background:hover .css-description-overlay-txt,
+.card-background:active .css-description-overlay-txt,
+.card-background:focus .css-description-overlay-txt {
+  opacity: 1;
+  transition: opacity 3s;
+  margin-top: 1.875em;
+  font-size: 0.875em;
+}
+
+.home-card-img-overlay {
+  position: absolute;
+  height: 5rem;
+  top: unset;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: initial;
+  padding: 1rem;
+  background: #ffffff;
+  opacity: 0.75;
+}
+
+/* Microaggression */
+
+.card-one-background {
+  background-image: url('../assets/img/home/microagressions.png');
+}
+
+/* HIV */
+
+.card-two-background {
+  background-image: url('../assets/img/home/home_hiv_african_american_elders.jpg');
+}
+
+/* Literacy */
+
+.card-three-background {
+  background-image: url('../assets/img/home/black-literacy-success.png');
+}
+
+/* Middle School */
+
+.card-four-background {
+  background-image: url('../assets/img/home/home_middle_school_citizen_scientists.jpg');
+}
+
+/* Housing Justice */
+
+.card-five-background {
+  background-image: url('../assets/img/home/home-lou-mural-mob.jpg');
+}
+
+/* Project Staar */
+
+.card-six-background {
+  background-image: url('../assets/img/home/project-staar.png');
+}
+
+/* Project Uncaged */
+
+.card-seven-background {
+  background-image: url('../assets/img/home/home-project-uncaged.jpg');
+}
+
+.css-featured-projs {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.59;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+
+.project-cover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/************* Our Collaborators *************/
+
+.css-our-collab p {
+  max-width: 58.0625rem;
+}
+
+.css-collab-list {
+  list-style: none;
+  text-indent: 0;
+  padding-inline-start: 0;
+}
+
+.css-collab-link {
+  color: #ad0000;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+/* Sidebar */
+
+.social-med-sidebar {
+  width: 0.9375em;
+  padding-left: 0.625rem;
+}
+
+/************* placeholder positioning and italics *************/
+
+#project-search-input ::-webkit-input-placeholder {
+  position: relative;
+  right: 4.688em;
+  font-style: italic;
+}
+
+#project-search-input :-moz-placeholder {
+  position: relative;
+  right: 4.688em;
+  font-style: italic;
+}
+
+#project-search-input ::-moz-placeholder {
+  position: relative;
+  right: 4.688em;
+  font-style: italic;
+}
+
+#project-search-input :-ms-input-placeholder {
+  position: relative;
+  right: 4.688em;
+  font-style: italic;
+} */
+
+/* Media MIN 576 */
+
+@media all and (min-width: 576px) {
+  .h-sm-100 {
+    height: 100%;
+  }
+}

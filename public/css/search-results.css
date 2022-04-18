@@ -1,0 +1,48 @@
+.css-search-heading {
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8375;
+  letter-spacing: 0.0563em;
+  color: #202020;
+}
+
+.css-search-row {
+  min-width: 100%;
+}
+
+.css-lg-search-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 0.1875rem solid black;
+  width: 22em;
+  background: url('../assets/img/search-results/search.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-left: 1.875rem;
+}
+
+.css-search-button {
+  min-width: 11.125rem;
+  background-color: #202020;
+  border-radius: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: 0.0437rem;
+  color: #ffffff;
+}
+
+.css-search-button:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 35.9375rem) {
+  .css-search-input {
+    display: none;
+  }
+}

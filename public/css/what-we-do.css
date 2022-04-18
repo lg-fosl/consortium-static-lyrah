@@ -1,0 +1,27 @@
+.max-width-1296 {
+  max-width: 81rem;
+}
+
+.custom-h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.0563em;
+  color: #202020;
+}
+
+.custom-text-style {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: 0.05rem;
+}
+
+.max-width-624 {
+  max-width: 39rem;
+}
